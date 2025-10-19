@@ -1,0 +1,7 @@
+﻿Planning: Xác định mục tiêu dự án, phạm vi, nguồn lực, thời gian và ngân sách phát triển.
+Analysis: Thu thập yêu cầu từ giáo viên, sinh viên; phân tích nghiệp vụ điểm danh.
+Design: Thiết kế giao diện người dùng, kiến trúc hệ thống, cơ sở dữ liệu và luồng xử lý.
+Implementation: Lập trình chức năng: đăng nhập, điểm danh, thống kê, quản lý thông tin học viên.
+Testing: Kiểm thử chức năng, hiệu năng, bảo mật; sửa lỗi trước khi triển khai.
+Deployment & Maintenance: Triển khai ứng dụng người dùng; cập nhật, sửa lỗi và cải tiến theo phản hồi.
+

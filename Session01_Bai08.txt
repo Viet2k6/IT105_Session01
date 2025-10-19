@@ -1,0 +1,30 @@
+﻿1. Tác nhân chính và chức năng tương ứng
+• Học viên:
+o Đăng ký tài khoản
+o Tham gia khóa học
+o Xem bài học, làm bài tập, theo dõi điểm số
+• Giảng viên:
+o Tạo và quản lý nội dung bài học
+o Chấm điểm, nhận xét bài làm
+o Theo dõi tiến độ học tập của học viên
+• Admin:
+o Quản lý người dùng (học viên, giảng viên)
+o Phân quyền truy cập
+o Theo dõi báo cáo, thống kê toàn hệ thống
+2. Phân loại hệ thống thông tin phù hợp
+• TPS (Transaction Processing System):
+o Xử lý các giao dịch như đăng ký khóa học, nộp bài, cập nhật điểm số
+• MIS (Management Information System):
+o Cung cấp báo cáo tổng hợp cho admin về số lượng học viên, tiến độ học tập, hiệu suất giảng viên
+• DSS (Decision Support System) (nếu mở rộng):
+o Hỗ trợ quản lý trung tâm đưa ra quyết định như mở thêm lớp, điều chỉnh nội dung học, phân bổ giảng viên
+3. Mô hình phát triển phần mềm phù hợp
+• Agile là mô hình phù hợp nhất cho dự án này vì:
+o Yêu cầu có thể thay đổi theo phản hồi từ học viên và giảng viên
+o Dự án cần triển khai nhanh từng phần để kiểm thử thực tế
+o Agile hỗ trợ phát triển linh hoạt, chia nhỏ thành các sprint để dễ quản lý và cải tiến liên tục
+4. Ba sơ đồ UML sử dụng khi thiết kế hệ thống
+• Use Case Diagram: mô tả chức năng của từng tác nhân như học viên, giảng viên, admin
+• Class Diagram: thiết kế các lớp như HocVien, GiangVien, KhoaHoc, BaiHoc, DiemSo
+• Sequence Diagram: mô tả luồng xử lý khi học viên đăng ký khóa học, làm bài và nhận điểm
+

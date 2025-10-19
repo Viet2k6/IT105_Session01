@@ -1,0 +1,11 @@
+﻿1. Dự án A: Phần mềm quản lý điểm cho trường cấp 2, yêu cầu rõ ràng
+Sử dụng mô hình Waterfall
+Vì yêu cầu đã rõ ràng, ít thay đổi, phù hợp với quy trình tuần tự của Waterfall
+
+2. Dự án B: Ứng dụng mobile đặt lịch hẹn khám bệnh, yêu cầu linh hoạt
+Sử dụng mô hình Agile
+Vì dự án cần phản hồi nhanh, thay đổi thường xuyên, Agile hỗ trợ phát triển linh hoạt theo từng sprint
+
+3. Dự án C: Hệ thống ngân hàng điện tử có bảo mật và độ phức tạp cao
+Sử dụng mô hình Spiral
+Vì dự án phức tạp, rủi ro cao, Spiral cho phép phát triển theo vòng lặp, đánh giá rủi ro từng giai đoạn

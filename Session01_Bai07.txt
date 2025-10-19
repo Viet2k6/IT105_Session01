@@ -1,0 +1,44 @@
+﻿1. Planning – Lập kế hoạch
+Xác định mục tiêu dự án: xây dựng hệ thống giúp người dân đăng ký tiêm chủng thuận tiện, trung tâm y tế dễ dàng quản lý lịch tiêm và theo dõi tình trạng tiêm chủng.
+Phạm vi dự án: áp dụng cho toàn bộ người dân trong khu vực quản lý của trung tâm y tế.
+Lập kế hoạch nhân sự: gồm quản lý dự án, lập trình viên backend/frontend, tester, thiết kế UI/UX.
+Thời gian thực hiện: khoảng 3 tháng phát triển và kiểm thử.
+Dự toán chi phí: bao gồm chi phí nhân lực, máy chủ, phần mềm và bảo trì hệ thống.
+
+2. Analysis – Phân tích yêu cầu
+Thu thập yêu cầu từ các bên liên quan: người dân, nhân viên y tế và quản lý trung tâm.
+Xác định các chức năng chính:
+• Người dân đăng ký tiêm, chọn loại vắc xin, thời gian mong muốn.
+• Trung tâm xác nhận thông tin, xếp lịch tiêm, gửi thông báo.
+• Quản lý theo dõi danh sách người đã tiêm, chưa tiêm, xuất báo cáo theo đợt hoặc theo khu vực.
+Phân tích nghiệp vụ để đảm bảo hệ thống đáp ứng đúng quy trình tiêm chủng thực tế.
+
+3. Design – Thiết kế hệ thống
+Thiết kế kiến trúc hệ thống gồm:
+• Ứng dụng web/mobile cho người dân.
+• Hệ thống quản lý nội bộ cho trung tâm y tế.
+• Cơ sở dữ liệu lưu thông tin đăng ký, lịch tiêm, trạng thái tiêm.
+Sử dụng sơ đồ UML như:
+• Use Case Diagram để mô tả chức năng của từng đối tượng.
+• Class Diagram để thiết kế các lớp như NguoiDung, LichTiem, PhieuDangKy.
+• Sequence Diagram để mô tả quy trình đăng ký và xác nhận tiêm.
+
+4. Implementation – Lập trình hệ thống
+Tiến hành lập trình các chức năng:
+• Đăng ký tiêm, xác nhận lịch, gửi thông báo.
+• Quản lý danh sách người dân, trạng thái tiêm.
+• Xây dựng giao diện thân thiện, dễ sử dụng cho cả người dân và nhân viên y tế.
+Đảm bảo bảo mật thông tin cá nhân và tính ổn định của hệ thống.
+
+5. Testing – Kiểm thử
+Thực hiện kiểm thử toàn bộ chức năng: đăng ký, xác nhận, thống kê.
+Kiểm thử hiệu năng khi có nhiều người truy cập cùng lúc.
+Kiểm thử bảo mật để tránh rò rỉ dữ liệu cá nhân.
+Sửa lỗi phát hiện trong quá trình kiểm thử để đảm bảo hệ thống hoạt động trơn tru.
+
+6. Deployment & Maintenance – Triển khai và bảo trì
+Triển khai hệ thống đến người dùng thực tế.
+Hướng dẫn sử dụng cho người dân và nhân viên y tế.
+Theo dõi phản hồi, cập nhật tính năng mới, sửa lỗi phát sinh.
+Duy trì hệ thống ổn định, đảm bảo phục vụ lâu dài cho công tác tiêm chủng.
+

@@ -1,0 +1,9 @@
+﻿1.  Giao dịch bán hàng
+ Loại hệ thống: TPS 
+Vì TPS dùng để xử lý các giao dịch hàng ngày như đơn hàng, thanh toán, hóa đơn.
+2. Phân tích xu hướng kinh doanh
+ Loại hệ thống: DSS 
+Vì DSS hỗ trợ ra quyết định dựa trên dữ liệu, biểu đồ, mô hình phân tích.
+3. Bảng tổng quan hiệu suất hàng tháng dành cho CEO
+ Loại hệ thống: EIS 
+Vì EIS cung cấp thông tin tổng hợp, trực quan cho lãnh đạo cấp cao.

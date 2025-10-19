@@ -1,0 +1,29 @@
+﻿1. Planning – Lập kế hoạch
+• Mục tiêu: Xây dựng hệ thống hỗ trợ giảng viên và sinh viên điểm danh nhanh chóng, chính xác, hạn chế gian lận và tiết kiệm thời gian quản lý.
+• Phạm vi: Áp dụng cho các lớp học chính quy trong trường đại học.
+• Nhân sự: Dự kiến nhóm phát triển gồm 1 quản lý dự án, 2 lập trình viên, 1 kiểm thử viên và 1 người thiết kế giao diện.
+• Thời gian: 2 tháng phát triển chức năng chính, 1 tháng kiểm thử và hoàn thiện.
+• Công nghệ: Phát triển ứng dụng di động kết nối với máy chủ qua API.
+• Chi phí: Bao gồm chi phí phần mềm, máy chủ, nhân lực và bảo trì hệ thống sau triển khai.
+2. Requirement Analysis – Phân tích yêu cầu
+• Giảng viên cần:
+o Tạo buổi học và sinh mã QR riêng cho từng buổi
+o Xem danh sách sinh viên đã điểm danh
+• Sinh viên cần:
+o Đăng nhập vào ứng dụng
+o Quét mã QR để xác nhận có mặt
+o Xem lịch học và lịch sử điểm danh của bản thân
+• Phòng đào tạo cần:
+o Theo dõi tỷ lệ điểm danh theo lớp, môn học
+o Xuất báo cáo tổng hợp theo học kỳ
+• Nhóm phát triển sẽ sử dụng sơ đồ chức năng và bảng phân công công việc để phối hợp hiệu quả giữa các thành viên.
+3. System Design – Thiết kế hệ thống
+• Kiến trúc hệ thống gồm:
+o Ứng dụng di động cho người dùng cuối
+o Máy chủ xử lý yêu cầu và lưu trữ dữ liệu
+o Cơ sở dữ liệu quản lý thông tin điểm danh, người dùng, buổi học
+• UML sử dụng:
+o Class Diagram: mô hình hóa các lớp như GiangVien, SinhVien, BuoiHoc, QRCode, DiemDanh
+o Sequence Diagram: mô tả luồng xử lý điểm danh: giảng viên tạo buổi học → sinh mã QR → sinh viên quét mã → server xác thực → ghi nhận điểm danh
+• Thiết kế giao diện: tạo mẫu màn hình chính, màn hình quét mã, danh sách buổi học và thống kê để đảm bảo trải nghiệm người dùng trực quan.
+

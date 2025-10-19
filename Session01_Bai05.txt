@@ -1,0 +1,12 @@
+﻿1. Giai đoạn: Planning
+Thực hiện xác định mục tiêu: tự động hóa điểm danh, giảm gian lận, tăng hiệu quả quản lý. Phân tích nguồn lực, thời gian, chi phí, nhóm phát triển.
+
+2. Giai đoạn: Requirement Analysis
+Làm việc với giảng viên, sinh viên, phòng đào tạo để thu thập yêu cầu: tạo buổi học, quét mã QR, xác nhận điểm danh, thống kê theo lớp, theo buổi.
+
+3. Giai đoạn: System Design
+Thiết kế kiến trúc hệ thống, cơ sở dữ liệu, giao diện người dùng. Chọn sơ đồ UML phù hợp:
+• Use Case Diagram: mô tả chức năng của hệ thống và vai trò người dùng
+• Class Diagram: thiết kế các lớp như Buổi học, Sinh viên, QR Code, Thống kê
+• Sequence Diagram: mô tả luồng xử lý khi điểm danh bằng QR 
+
